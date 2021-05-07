@@ -9,3 +9,18 @@ checks:
     enabled: false
   method-count:
     enabled: false
+plugins:
+  sonar-python:
+    enabled: true
+    config:
+      minimum_severity: critical
+  bandit:
+    enabled: true
+  fixme:
+    enabled: true
+    config:
+      strings:
+      - FIXME
+      - BUG
+      - CUSTOM
+  
