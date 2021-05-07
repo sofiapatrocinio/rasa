@@ -2,7 +2,6 @@ version: "2"
 exclude_patterns:
 - rasa/core/utils.py   # codeclimate has some encoding issues with this files because of emojis
 checks:
-  checks:
   argument-count:
     enabled: true
     config:
@@ -48,8 +47,6 @@ plugins:
     enabled: true
     config:
       minimum_severity: critical
-  bandit:
-    enabled: true
   fixme:
     enabled: true
     config:
