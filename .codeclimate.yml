@@ -23,7 +23,7 @@ checks:
     config:
       threshold: 20
   method-lines:
-    enabled: false
+    enabled: true
     config:
       threshold: 25
   nested-control-flow:
@@ -35,11 +35,11 @@ checks:
     config:
       threshold: 4
   similar-code:
-    enabled: true
+    enabled: false
     config:
       threshold: #language-specific defaults. overrides affect all languages.
   identical-code:
-    enabled: true
+    enabled: false
     config:
       threshold: #language-specific defaults. overrides affect all languages.
 exclude_patterns:
