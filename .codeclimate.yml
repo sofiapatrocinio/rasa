@@ -3,31 +3,31 @@ exclude_patterns:
 - rasa/core/utils.py   # codeclimate has some encoding issues with this files because of emojis
 checks:
   argument-count:
-    enabled: true
+    enabled: false
     config:
       threshold: 4
   complex-logic:
-    enabled: true
+    enabled: false
     config:
       threshold: 4
   file-lines:
-    enabled: true
+    enabled: false
     config:
       threshold: 250
   method-complexity:
-    enabled: true
+    enabled: false
     config:
       threshold: 5
   method-count:
-    enabled: true
+    enabled: false
     config:
       threshold: 20
   method-lines:
-    enabled: true
+    enabled: false
     config:
       threshold: 25
   nested-control-flow:
-    enabled: true
+    enabled: false
     config:
       threshold: 4
   return-statements:
@@ -35,11 +35,11 @@ checks:
     config:
       threshold: 4
   similar-code:
-    enabled: true
+    enabled: false
     config:
       threshold: #language-specific defaults. overrides affect all languages.
   identical-code:
-    enabled: true
+    enabled: false
     config:
       threshold: #language-specific defaults. overrides affect all languages.
 exclude_patterns:
